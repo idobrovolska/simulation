@@ -5,4 +5,3 @@ print(res)
 result=ncd(num1, num2)
 
 print(result)
-
