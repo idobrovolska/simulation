@@ -13,5 +13,10 @@ def ncd(a, b):
 num1 = int(input())
 num2 = int(input())
 
-result = ncd(num1, num2)
-print(result)
+def power_of_five(n):
+    if n == 0:
+        return False
+    while n % 5 == 0:
+        n /= 5
+    return n == 1
+
