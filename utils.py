@@ -13,6 +13,8 @@ def ncd(a, b):
 num1 = int(input())
 num2 = int(input())
 
+(pull-request yulla)
+
 def power_of_five(n):
     if n == 0:
         return False

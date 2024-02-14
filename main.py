@@ -6,6 +6,8 @@ result=ncd(num1, num2)
 
 print(result)
 
+(pull-request yulla)
+
 print(power_of_five(25))
 
 result = is_prime(number_to_check)
