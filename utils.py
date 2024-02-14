@@ -32,3 +32,15 @@ def is_prime(number):
             if number % i == 0:
                 return False
         return True
+
+
+#for 'pull-request':
+def decimal_to_binary_recursive(dec):
+    if dec == 0:
+        return "0"
+    elif dec == 1:
+        return "1"
+    else:
+        chastka = dec // 2
+        r = dec % 2
+        return decimal_to_binary_recursive(chastka) + str(r)
